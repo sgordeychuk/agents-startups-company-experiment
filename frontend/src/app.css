@@ -1,0 +1,58 @@
+/* AI Innovators Results Viewer - Skeleton + Tailwind */
+@import 'tailwindcss';
+@import '@skeletonlabs/skeleton';
+@import '@skeletonlabs/skeleton-svelte';
+@import '@skeletonlabs/skeleton/themes/cerberus';
+
+/* Custom properties for dark theme compatibility */
+:root {
+	/* Spacing */
+	--space-xs: 0.25rem;
+	--space-sm: 0.5rem;
+	--space-md: 1rem;
+	--space-lg: 1.5rem;
+	--space-xl: 2rem;
+
+	/* Text colors - high contrast for dark theme */
+	--text-primary: rgb(248 250 252);       /* slate-50 */
+	--text-secondary: rgb(203 213 225);     /* slate-300 */
+	--text-muted: rgb(148 163 184);         /* slate-400 */
+	--text-on-gradient: rgb(248 250 252);
+	--text-on-gradient-secondary: rgb(203 213 225);
+
+	/* Primary accent colors */
+	--primary-light: rgb(129 140 248);      /* indigo-400 */
+	--primary-dark: rgb(165 180 252);       /* indigo-300 - lighter for dark bg */
+
+	/* Card backgrounds */
+	--card-bg-secondary: rgb(30 41 59 / 0.5);  /* slate-800/50 */
+	--card-border: rgb(51 65 85);              /* slate-700 */
+
+	/* Status colors with good dark theme contrast */
+	--success-text: rgb(134 239 172);       /* green-300 */
+	--success-bg: rgb(22 101 52 / 0.3);     /* green-800/30 */
+	--error-text: rgb(252 165 165);         /* red-300 */
+	--error-bg: rgb(153 27 27 / 0.3);       /* red-800/30 */
+	--warning-text: rgb(253 224 71);        /* yellow-300 */
+	--warning-bg: rgb(133 77 14 / 0.3);     /* yellow-800/30 */
+}
+
+/* Custom scrollbar styling for dark theme */
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+
+::-webkit-scrollbar-track {
+	background: rgba(255, 255, 255, 0.05);
+	border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: rgba(255, 255, 255, 0.3);
+}

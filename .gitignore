@@ -1,0 +1,63 @@
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+credentials/
+
+# Python virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# Python build
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Project-specific caches
+.ruff_cache/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Frontend
+frontend/node_modules/
+frontend/.svelte-kit/
+frontend/build/
+frontend/playwright-report/
+frontend/test-results/
+
+# Generated artifacts
+experiments/idea_queue.json
+test_results/
+
+# Log files
+*.log
+claude_conversation_log
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# MCP/Tool caches
+.playwright-mcp/
+.claude/
+
+# Generated content
+*draft.md
+
+/CLAUDE.md

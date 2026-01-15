@@ -1,0 +1,150 @@
+{
+  "total_execution_time_ms": 1792530,
+  "total_calls": 18,
+  "total_tokens": 570144,
+  "total_prompt_tokens": 502680,
+  "total_completion_tokens": 67464,
+  "total_cost": 2.366043375,
+  "max_budget": 10.0,
+  "budget_used_percent": 23.66043375,
+  "stages": {
+    "idea_development": {
+      "execution_time_ms": 1089619,
+      "total_calls": 9,
+      "total_tokens": 405092,
+      "total_cost": 1.6231879999999999,
+      "agents": {
+        "CEO": {
+          "call_count": 3,
+          "execution_time_ms": 171717,
+          "prompt_tokens": 146294,
+          "completion_tokens": 9692,
+          "total_tokens": 155986,
+          "cost": 0.584262
+        },
+        "Researcher": {
+          "call_count": 3,
+          "execution_time_ms": 686393,
+          "prompt_tokens": 108802,
+          "completion_tokens": 23641,
+          "total_tokens": 132443,
+          "cost": 0.681021
+        },
+        "LegalAdvisor": {
+          "call_count": 3,
+          "execution_time_ms": 231470,
+          "prompt_tokens": 107830,
+          "completion_tokens": 8833,
+          "total_tokens": 116663,
+          "cost": 0.35790500000000003
+        }
+      }
+    },
+    "prototyping": {
+      "execution_time_ms": 631967,
+      "total_calls": 7,
+      "total_tokens": 145833,
+      "total_cost": 0.709182,
+      "agents": {
+        "Developer": {
+          "call_count": 5,
+          "execution_time_ms": 300910,
+          "prompt_tokens": 118204,
+          "completion_tokens": 21974,
+          "total_tokens": 140178,
+          "cost": 0.684222
+        },
+        "Designer": {
+          "call_count": 2,
+          "execution_time_ms": 248909,
+          "prompt_tokens": 4212,
+          "completion_tokens": 1443,
+          "total_tokens": 5655,
+          "cost": 0.024960000000000003
+        }
+      }
+    },
+    "pitch": {
+      "execution_time_ms": 70919,
+      "total_calls": 2,
+      "total_tokens": 19219,
+      "total_cost": 0.033673375000000005,
+      "agents": {
+        "Marketer": {
+          "call_count": 1,
+          "execution_time_ms": 53477,
+          "prompt_tokens": 5593,
+          "completion_tokens": 1881,
+          "total_tokens": 7474,
+          "cost": 0.0327925
+        },
+        "DeckStrategist": {
+          "call_count": 1,
+          "execution_time_ms": 13287,
+          "prompt_tokens": 11745,
+          "completion_tokens": 0,
+          "total_tokens": 11745,
+          "cost": 0.0008808749999999999
+        }
+      }
+    }
+  },
+  "agents": {
+    "CEO": {
+      "call_count": 3,
+      "execution_time_ms": 171717,
+      "prompt_tokens": 146294,
+      "completion_tokens": 9692,
+      "total_tokens": 155986,
+      "cost": 0.584262
+    },
+    "Researcher": {
+      "call_count": 3,
+      "execution_time_ms": 686393,
+      "prompt_tokens": 108802,
+      "completion_tokens": 23641,
+      "total_tokens": 132443,
+      "cost": 0.681021
+    },
+    "LegalAdvisor": {
+      "call_count": 3,
+      "execution_time_ms": 231470,
+      "prompt_tokens": 107830,
+      "completion_tokens": 8833,
+      "total_tokens": 116663,
+      "cost": 0.35790500000000003
+    },
+    "Developer": {
+      "call_count": 5,
+      "execution_time_ms": 300910,
+      "prompt_tokens": 118204,
+      "completion_tokens": 21974,
+      "total_tokens": 140178,
+      "cost": 0.684222
+    },
+    "Designer": {
+      "call_count": 2,
+      "execution_time_ms": 248909,
+      "prompt_tokens": 4212,
+      "completion_tokens": 1443,
+      "total_tokens": 5655,
+      "cost": 0.024960000000000003
+    },
+    "Marketer": {
+      "call_count": 1,
+      "execution_time_ms": 53477,
+      "prompt_tokens": 5593,
+      "completion_tokens": 1881,
+      "total_tokens": 7474,
+      "cost": 0.0327925
+    },
+    "DeckStrategist": {
+      "call_count": 1,
+      "execution_time_ms": 13287,
+      "prompt_tokens": 11745,
+      "completion_tokens": 0,
+      "total_tokens": 11745,
+      "cost": 0.0008808749999999999
+    }
+  }
+}
