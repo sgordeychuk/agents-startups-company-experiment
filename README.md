@@ -3,13 +3,13 @@
 Multi-agent AI system simulating a company which generated startups.
 This project is build as part of the experiment written in this article:
 
-IMPORTANT: this is not production-ready software. It is an experiment
-demonstrating multi-agent AI capabilities using AutoGen. It might not be stable and might not even work anymore as everything is evolving fast in this space.
-Use at your own risk.
+⚠️IMPORTANT: this is not production-ready software. It is an experiment demonstrating multi-agent AI capabilities using AutoGen. 
+It might not be stable and might not even work anymore as everything is evolving fast in this space.
+Use at your own risk!
 
 ## Overview
 
-AI Innovators is a multi-agent system where AI agents collaborate to create, validate, and prototype startup ideas. The system simulates a startup company with the following roles:
+"AI Innovators" is a multi-agent system where AI agents collaborate to create, validate, and prototype startup ideas. The system simulates a startup company with the following roles:
 
 | Agent | Competency | Authority |
 |-------|-----------|-----------|
