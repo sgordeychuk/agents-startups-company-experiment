@@ -22,6 +22,9 @@ Use at your own risk!
 | **Marketer** | Go-to-market strategy, channel analysis | Marketing direction |
 | **Deck Strategist** | Pitch decks, storytelling | Final pitch narrative |
 
+![img.png](docs_img/img.png)
+![img.png](docs_img/img2.png)
+
 ## Architecture
 
 - **Framework**: AutoGen 0.4+ (autogen-agentchat + autogen-ext)
