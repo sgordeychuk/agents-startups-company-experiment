@@ -22,8 +22,8 @@ Use at your own risk!
 | **Marketer** | Go-to-market strategy, channel analysis | Marketing direction |
 | **Deck Strategist** | Pitch decks, storytelling | Final pitch narrative |
 
-![img.png](docs_img/img.png)
-![img.png](docs_img/img2.png)
+![img.png](docs_img/dashboard.png)
+![img.png](docs_img/experiment.png)
 
 ## Architecture
 
