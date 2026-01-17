@@ -1,7 +1,7 @@
 # Startup Company experiment 
 
 Multi-agent AI system simulating a company which generated startups.
-This project is build as part of the experiment written in this article:
+This project is build as part of the experiment written in this article: https://techdebtmd.substack.com/p/ai-agents-startup-idea-validation-experiment
 
 ⚠️IMPORTANT: this is not production-ready software. It is an experiment demonstrating multi-agent AI capabilities using AutoGen. 
 It might not be stable and might not even work anymore as everything is evolving fast in this space.
